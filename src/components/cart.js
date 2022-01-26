@@ -30,7 +30,7 @@ export function Cart() {
                                     <b>Quantity: {item.quantity}</b> 
                                 </p>
                                
-                                <button className="waves-effect waves-light btn pink remove" onClick={()=>{this.handleRemove(item.id)}}>Remove</button>
+                                <button className="waves-effect waves-light btn pink remove" onClick={()=>{handleRemove(item.id)}}>Remove</button>
                             </div>
                             
                         </li>
